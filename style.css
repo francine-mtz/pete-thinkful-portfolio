@@ -1,0 +1,77 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+/*fingers crossed that this goes well*/
+
+/*for the About/Portfolio/Contact to turn red and underlined too*/
+
+a{
+  text-align: center;
+  text-decoration: underline;
+  color: red;
+}
+/*^^^^this makes the "link" appear red and underlined so that we know that you're able to click on it*/
+
+
+/*was told that text-align:center shouldn't be all centered and need to work on it*/
+body {
+  /*this didn't do anything^^^*/
+  
+    text-align: center;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Set the font family for any h1, h2, or h3 heading */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+}
+
+article {
+  padding: 50px 0;
+}
+/*I'm not messing with this*/
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  text-align: ;
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+/*SO HAPPY AARON HELPED ME WITH THE DARK BORDER!!
+Lowkey it looked better without it though*/
+hr {
+  border: 1px solid black;
+}
+
+/* got so happy that this made the border around the circle
+And I even got the right color too even though it's barely noticeable*/
+
+.image-circle {
+  border-radius: 50%;
+  border: 2px solid #003049;
+}
+/*for the ~~BACKGROUND~~ color*/
+
+body{
+  background-color: #eae2b7
+}
+/*made the background a neutral beige color*/
